@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>train.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Internship_ID" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv" type="V_String" />
+            <Field name="Student_ID" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv" type="V_String" />
+            <Field name="Earliest_Start_Date" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv" type="V_String" />
+            <Field name="Expected_Stipend" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv" type="V_String" />
+            <Field name="Minimum_Duration" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv" type="V_String" />
+            <Field name="Preferred_location" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv" type="V_String" />
+            <Field name="Is_Part_Time" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv" type="V_String" />
+            <Field name="Is_Shortlisted" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\traincsv\train.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Internship.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Internship_ID" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Internship_Profile" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Skills_required" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Internship_Type" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Internship_Location" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Internship_category" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="No_of_openings" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Stipend_Type" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Stipend1" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Stipend2" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Internship_deadline" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Start_Date" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Internship_Duration(Months)" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="PR" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="UI" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Marketing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Media" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Social" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Web" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Business" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Research" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Writing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Plan" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Creative" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Process" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Database" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Strategy" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Designing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Analysis" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Facebook" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Communication" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Rest" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Android" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Presentation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Media Marketing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Twitter" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Social Media Marketing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Operations" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Java" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Quality" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="HTML" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Blogs" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Digital Marketing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="PHP" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Market Research" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Recruitment" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Testing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="CSS" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Planning" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="API" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Editing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Content Writing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Innovative" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Lead Generation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Mobile App" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="SQL" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Accounts" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Reporting" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="JavaScript" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Documentation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="iOS" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Branding" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="ACTING" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Analytics" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Initiative" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Advertising" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Cold Calling" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Sourcing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="ERP" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="NGO" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Environment" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Networking" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Production" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="MySQL" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="ISO" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Marketing Strategy" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Survey" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Visio" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="App Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Front End" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="web development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Integration" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="HTML5" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="jQuery" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Server" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Coding" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="MBA" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Content Creation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Reading" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="B2B" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Content Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Storm" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="E-commerce" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Databases" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Programming" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Wordpress" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Outreach" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="NABL" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Web Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Architecture" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Web Application" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Adobe" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Scala" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="UI/UX" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Python" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Mac" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Retail" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Digital Media" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Product Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Data Collection" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Algorithm" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="LESS" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Email Marketing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Screening" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Bootstrap" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Finance" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Content Marketing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Communication Skil" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Hiring" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Negotiation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Administration" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Communication Skills" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="CSS3" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Infographic" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Youtube" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="CRM" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="CAD" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Infographics" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Access" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Editorial" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="ARM" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="AJAX" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name=".NET" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Co-ordination" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Ownership" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Algorithms" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Node" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Drafting" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Blogging" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Animation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Teaching" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Blogger" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Relationship Management" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="3d" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="HTTP" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Press Release" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Accounting" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Android App Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Adobe Photoshop" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Photography" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Software Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Social Networking" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="AngularJS" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="AWS" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Secondary Research" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Recruiting" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Client Servicing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Leadership" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Content Writer" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Web Services" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Payroll" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Prospecting" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Graphic Designing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Proofreading" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Data Entry" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Flex" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Creativity" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Data Management" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Convincing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="GATE" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Social Media Management" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Machine Learning" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Client Relations" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Web Applications" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="XML" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="MVC" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="HTML/CSS" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Google+" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Typing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Sketch" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="UI Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Visual Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Creative Writing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Graphic Designer" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Product Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="PERL" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Hindi" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Chef" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Sales Process" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="ASP.NET" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Django" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Public Relations" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="CMS" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Vendor Management" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Content Strategy" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Client Relationship" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Creative Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="C#" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="JSON" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Linux" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Client Interaction" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Manufacturing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Customer Relationship Management" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Recruitment Process" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Business Relation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Talent Acquisition" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="CorelDRAW" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Big Data" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Material Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Market Analysis" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Adobe Illustrator" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="REST API" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Tally" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Electronics" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Bee" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="C++" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Online Research" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Mockups" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Front End Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Gif" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Product Management" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="MongoDB" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Primary Research" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Healthcare" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Data Analytics" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Google Analytics" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Core PHP" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="B2B Sales" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Social Media Tools" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Node.js" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Ruby" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Drawing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Brand Promotion" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Mechanical" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Automobile" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Lifestyle" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Writing Blogs" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="CodeIgniter" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Writing Skills" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="SQL Server" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Logo Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Project Management" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="API Integration" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Client Communication" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Growth Hacking" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Interior Design" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Personality" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="SAP" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Scripting" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Android Application Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Event Management" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Blog Writing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Statistics" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Typography" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Scalability" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Assembly" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Conceptualization" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Microsoft" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="MVC Framework" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="PSD" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Web Technologies" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Web Application Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Joomla" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Image Processing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="REST APIs" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Data Structure" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Confidence" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Electrical" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Counseling" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Inside Sales" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Organizational Skills" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Video Editing" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Data Structures" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Mobile Application Development" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="PhoneGap" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Storytelling" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="MySQL." size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Ionic" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Design Skills" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Corporate Sales" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Entrepreneurship" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Films" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Foundation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+            <Field name="Payment Gateway" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Internship\Internship.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Student.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Student_ID" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Institute_Category" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Institute_location" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="hometown" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Degree" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Stream" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Current_year" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Year_of_graduation" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Performance_PG" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="PG_scale" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Performance_UG" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="UG_Scale" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Performance_12th" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Performance_10th" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Experience_Type" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Profile" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Location" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="Start Date" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+            <Field name="End Date" size="254" source="File: C:\Users\VEDANT-PC\Desktop\IBM_MiniProject-II\trainfiles\Student\Student.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Internship_ID" selected="True" />
+            <SelectField field="Internship_Profile" selected="True" />
+            <SelectField field="Skills_required" selected="True" />
+            <SelectField field="Internship_Type" selected="True" />
+            <SelectField field="Internship_Location" selected="True" />
+            <SelectField field="Internship_category" selected="True" />
+            <SelectField field="No_of_openings" selected="True" />
+            <SelectField field="Stipend_Type" selected="True" />
+            <SelectField field="Stipend1" selected="True" />
+            <SelectField field="Stipend2" selected="True" />
+            <SelectField field="Internship_deadline" selected="True" />
+            <SelectField field="Start_Date" selected="True" />
+            <SelectField field="Internship_Duration(Months)" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Internshala</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
