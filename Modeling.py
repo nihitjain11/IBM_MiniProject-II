@@ -95,6 +95,12 @@ def modelfit(alg, dtrain, dtest, predictors, performCV=True, printFeatureImporta
 #Choose all predictors except target & IDcols
 predictors = [x for x in train.columns if x not in [target, Internship_ID,Student_ID]]
 gbm0 = GradientBoostingClassifier(random_state=10)
+# to check if there is any NaN
+#np.any(np.isnan(train))
+#np.all(np.isfinite(train))
+
+#train.dropna()
+#train.fillna(0,inplace=True) # fill 0 in NaN
 modelfit(gbm0, train, test, predictors)
 
 
@@ -110,17 +116,7 @@ pd.Series(gbm0.feature_importances_, predictors).sort_values(ascending=False)[1:
 
 # In[12]:
 
-predictors1= ['Stip_range','Num_Applicant','No_of_openings','Internship_Duration.Months.','Is_SR_No','Diff_Intdl_StrD',
-              'Minimum_Duration','Performance_10th','data4.Internship_categoryPart.time','Num_Exp_Row','Duration_Match',
-              'hometown_Intern_LocMatch','data4.Internship_Typeregular','data4.Stipend_Typeunpaid','Is_IP_MK','Inf_hometown',
-              'Is_IP_CW','Institute_Category','data4.Stipend_Typeperformance','data4.Internship_Typevirtual',
-              'data4.Experience_Typeinternship','Inst_Intern_LocMatch','Is_Prof','Performance_12th','Is_IntrnLoc_JABD',
-              'data4.Stipend_Typefixed','Workex_Intern_LocMatch','Is_IP_AD','Performance_UG','Is_PlIJCE',
-              'data4.Internship_categoryFull.Time','data4.Stipend_Typevariable','Is_IntrnLoc_IIGB','Is_InstLoc_IIIF',
-              'Is_IP_BD','NoCross_Deadline','Is_PlNo_Pref','Is_PlIHJB','Is_StrMarketing','Is_IntrnLoc_IIDB',
-              'Is_IP_WD','Is_IntrnLoc_IIBD','Is_IntrnLoc_JEJJ','Is_IP_SD','Is_InstLoc_IIDB','Is_StrCommerce','Exp_tenure',
-              'Is_Part_Time','St_EMatch','Dif_Yog_IntD','data4.Experience_Typeacademic_project','data4.Current_year2',
-              'data4.Experience_TypeNo_Exp','Expected_Stipend','Is_Prof_Marketing','Is_MTech','Is_PlIIDB']
+predictors1= ['Stip_range','Num_Applicant','No_of_openings','Internship_Duration.Months.','Is_SR_No','Diff_Intdl_StrD', 'Minimum_Duration','Performance_10th','data4.Internship_categoryPart.time','Num_Exp_Row','Duration_Match', 'hometown_Intern_LocMatch','data4.Internship_Typeregular','data4.Stipend_Typeunpaid','Is_IP_MK','Inf_hometown', 'Is_IP_CW','Institute_Category','data4.Stipend_Typeperformance','data4.Internship_Typevirtual','data4.Experience_Typeinternship','Inst_Intern_LocMatch','Is_Prof','Performance_12th','Is_IntrnLoc_JABD','data4.Stipend_Typefixed','Workex_Intern_LocMatch','Is_IP_AD','Performance_UG','Is_PlIJCE', 'data4.Internship_categoryFull.Time','data4.Stipend_Typevariable','Is_IntrnLoc_IIGB','Is_InstLoc_IIIF','Is_IP_BD','NoCross_Deadline','Is_PlNo_Pref','Is_PlIHJB','Is_StrMarketing','Is_IntrnLoc_IIDB','Is_IP_WD','Is_IntrnLoc_IIBD','Is_IntrnLoc_JEJJ','Is_IP_SD','Is_InstLoc_IIDB','Is_StrCommerce','Exp_tenure','Is_Part_Time','St_EMatch','Dif_Yog_IntD','data4.Experience_Typeacademic_project','data4.Current_year2','data4.Experience_TypeNo_Exp','Expected_Stipend','Is_Prof_Marketing','Is_MTech','Is_PlIIDB']
 
 
 # In[13]:
@@ -133,8 +129,10 @@ gsearch1.fit(train[predictors],train[target])
 
 
 # In[14]:
-
-gsearch1.grid_scores_, gsearch1.best_params_, gsearch1.best_score_
+#gsearch1.grid_scores_
+gsearch1.cv_results_
+gsearch1.best_params_
+gsearch1.best_score_
 
 
 # In[15]:
@@ -148,7 +146,8 @@ gsearch2.fit(train[predictors],train[target])
 
 # In[16]:
 
-gsearch2.grid_scores_
+#gsearch2.grid_scores_
+gsearch2.cv_results_
 gsearch2.best_params_
 gsearch2.best_score_
 
@@ -163,8 +162,10 @@ gsearch3.fit(train[predictors],train[target])
 
 
 # In[18]:
-
-gsearch3.grid_scores_,gsearch3.best_estimator_, gsearch3.best_score_
+#gsearch3.grid_scores_
+gsearch3.cv_results_
+gsearch3.best_estimator_
+gsearch3.best_score_
 
 
 # In[19]:
@@ -183,8 +184,8 @@ gsearch4.fit(train[predictors],train[target])
 
 
 # In[21]:
-
-gsearch4.grid_scores_
+#gsearch4.grid_scores_
+gsearch4.cv_results_
 gsearch4.best_params_
 gsearch4.best_score_
 
@@ -199,8 +200,8 @@ gsearch5.fit(train[predictors],train[target])
 
 
 # In[23]:
-
-gsearch5.grid_scores_
+#gsearch5.grid_scores_
+gsearch5.cv_results_
 gsearch5.best_params_
 gsearch5.best_score_
 
@@ -226,7 +227,7 @@ est.fit(train[predictors],train[target])
 
 
 # In[34]:
-
+test.fillna(0,inplace=True)
 # predict probabilities
 prob = est.predict_proba(test[predictors])[:,1]
 
@@ -235,5 +236,5 @@ prob = est.predict_proba(test[predictors])[:,1]
 
 test1=test
 test1['Is_Shortlisted']=prob[:]
-test1.to_csv('E:/SS/AV/OnlineHack/Online Date Your Data/files/DYD_SEC1.csv', columns=['Internship_ID','Student_ID','Is_Shortlisted'],index=False)
+test1.to_csv('DYD_SEC1.csv', columns=['Internship_ID','Student_ID','Is_Shortlisted'],index=False)
 
