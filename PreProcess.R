@@ -1,28 +1,28 @@
 
-intrn <- read.csv("trainfiles/Internship/Internship.csv")
-std   <- read.csv("trainfiles/Student/Student.csv")
+interns <- read.csv("trainfiles/Internship/Internship.csv")
+student   <- read.csv("trainfiles/Student/Student.csv")
 train <- read.csv("trainfiles/traincsv/train.csv")
 test  <- read.csv("test-date-your-data/test.csv")
 
 #install.packages("sqldf")
 
 library(sqldf)
-std1 <- std
-std1$S_Date <- std1$Start.Date
-std1$E_Date <- std1$End.Date
-std1$Num_Exp <- 1
-std2 <- sqldf("select Student_ID, Institute_Category, Institute_location ,hometown ,Degree,          
+student1 <- student
+student1$S_Date <- student1$Start.Date
+student1$E_Date <- student1$End.Date
+student1$Num_Exp <- 1
+student2 <- sqldf("select Student_ID, Institute_Category, Institute_location ,hometown ,Degree,          
               Stream, Current_year, Year_of_graduation, Performance_PG, PG_scale,         
               Performance_UG, UG_Scale, Performance_12th, Performance_10th, Experience_Type,  
-              Profile, Location, S_Date, E_Date, SUM(Num_Exp) as Num_Exp_Row From std1 Group BY Student_ID")
+              Profile, Location, S_Date, E_Date, SUM(Num_Exp) as Num_Exp_Row From student1 Group BY Student_ID")
 
 # Converting S_Date, E_Date to date class
-S_Date <- as.Date(std2$S_Date, "%d-%m-%Y")
-E_Date <- as.Date(std2$E_Date, "%d-%m-%Y")
+S_Date <- as.Date(student2$S_Date, "%d-%m-%Y")
+E_Date <- as.Date(student2$E_Date, "%d-%m-%Y")
 
 
-std2$S_Date <- S_Date
-std2$E_Date <- E_Date
+student2$S_Date <- S_Date
+student2$E_Date <- E_Date
 
 
 # tagging train and test data
@@ -35,11 +35,11 @@ test1$tag <- "test"
 test1$Is_Shortlisted <- 0
 data <- rbind(train1,test1)
 
-#combining data and std2
+#combining data and student2
 
-data1 <- merge(data,std2,by="Student_ID",all.x=TRUE)
-intrn1 <- intrn[,c(1:13)]
-data2 <- merge(data1,intrn1, by="Internship_ID", all.x=TRUE)
+data1 <- merge(data,student2,by="Student_ID",all.x=TRUE)
+interns1 <- interns[,c(1:13)]
+data2 <- merge(data1,interns1, by="Internship_ID", all.x=TRUE)
 
 ## modification of Earliest_Start_Date
 
