@@ -1,0 +1,133 @@
+Abstract
+
+In this problem, we have been provided with the information about various internships posted on
+Internshala. This includes various attributes about the internships like location, duration, start_date of
+internship etc. We have also been provided with information about the students who have applied for the
+internship. These include type_of_institute, current_year, academic performance of the student etc. Any
+student is free to apply for any internship on the portal.
+While employers get high response to their posting, it is difficult to go through a high number of
+applications for the employers. They might need to go through high number of applications to shortlist the
+most relevant candidates. Hence an intelligent matching algorithm can help our users get better
+experience and enhance chances of meaningful profile matches.
+
+
+
+
+
+
+System requirements
+
+Operating System: Windows 7 64 bit
+
+Processor: Intel Core i3
+
+RAM: 4GB
+
+Programming Languages: R, Python
+
+Software: Jupyter Notebook, RStudio
+
+Packages: pandas, numpy, matplotlib, scikit-learn, statsmodels, caTools, ggplot2, sqldf, dummies, lubridate
+
+* these are the minimum system requirements for running the code.
+
+
+
+
+
+Task System Analysis Documentation
+
+The various steps involved in the completion of the project are:
+
+1. Business Understanding: In this, the business problem and the motivation of that problem had to be understood in order to act accordingly further in the project.
+
+While employers get high response to their posting, it is difficult to go through a high number of applications for the employers. They might need to go through high number of applications to shortlist the most relevant candidates. Hence an intelligent matching algorithm can help our users to get better experience and enhance the chances of meaningful profile matches.
+
+This business problem was provided. Then further research on the particular domain was done using different resources over the internet.
+
+
+2. Data Understanding: In this step, the roles and meanings of different variables present in the Dataset had to be understood. 
+
+Internship.csv - includes the details of all the internships posted on Internshala. These details are filled by the company floating the Internship. Each row represents one internship. It has 286 columns and 6899 rows. This includes various attributes about the internships like location, duration, start_date of internship etc.
+
+Student.csv - includes details of the students applying for the internship. These details have been filled by the student. Each row represents an experience of the student. In case the student has not filled any experience, there would be only one row containing details of student. It has 19 columns and 151191 rows. These include type_of_institute, current_year, academic performance of the student etc.
+
+test.csv & train.csv - include the application details (as applied by student) and the shortlist outcome
+
+*Any student is free to apply for any internship on the portal.
+
+3. Data Preparation: In this step data cleaning is performed in order to prepare data for further analysis and for building the machine learning model. The data which is obtained may need to be processed before it can be actually used, like there may be some values missing which need to be filled otherwise they will cause problem when doing the analyses on the data.
+
+
+4. Modeling: In this step the appropriate machine learning model is selected, then dataset is divided into the training and test sets, and then finally the model is trained on the training data in order to get the best results. 
+Since our problem is a classification problem and has a very large size of more
+than 100k samples , we decided to use the technique of Gradient descent for which the
+most suitable algorithm is Gradient boosting which is able to solve the problem of large size ,
+handling data of mixed type and missing values, robust to outliers in input space and has a good
+interpretability and predictive power.
+Gradient descent is an optimization algorithm used to minimize some function by iteratively
+moving in the direction of steepest descent as defined by the negative of the gradient. In machine
+learning, we use gradient descent to update the parameters of our model. Gradient boosting is a machine learning technique for regression and classification
+problems, which produces a prediction model in the form of an ensemble of weak
+prediction models, typically decision trees.
+
+5. Evaluation: In this step, the model is evaluated against the test set using various performance metrics like looking at R-squared, Adjusted R-squared, Residual Plots, etc.
+We obtained a model report with accuracy of 87.58 percent, which is the best fit.
+
+6. Deployment: The model is then finalized after getting satisfied results in the previous step and finally delivered and presented along with documentation.
+
+
+
+
+
+
+Task System Design Documentation
+
+The model used for the completion of the product was CRISP-DM (Cross Industry Standard Process for Data Mining) which consists of 6 phases viz. Business Understanding Phase, Data Understanding Phase, Data pre-processing Phase, Modeling Phase, Evaluation Phase, Deployment Phase.
+
+1. Business Understanding: In this, the business problem and the motivation of that problem had to be understood in order to act accordingly further in the project.
+
+2. Data Understanding: In this step, the roles and meanings of different variables present in the Dataset had to be understood.
+
+3. Data Preparation: In this step data cleaning is performed in order to prepare data for further analysis and for building the machine learning model.
+
+4. Modeling: In this step the appropriate machine learning model is selected, then dataset is divided into the training and test sets, and then finally the model is trained on the training data in order to get the best results.
+
+5. Evaluation: In this step, the model is evaluated against the test set using various performance metrics like looking at R-squared, Adjusted R-squared, Residual Plots, etc.
+
+6. Deployment: The model is then finalized after getting satisfied results in the previous step and finally delivered to the client for their use or presented as per requirement.
+
+
+
+
+
+
+Acceptance Test
+
+The following conclusions/predictions can be drawn from the analysis on the dataset:
+
+I. Able to match right interns with right HRs using the Machine Learning Model report obtaining the accuracy of 87.58 percent.
+
+II. Predict if the student applying for the internship would be selected or not.
+
+III. Reduce the workload and time consumed while selecting the suitable candidates.
+
+IV. It can also be used by the applicants to know which are the more suitable internship for
+them.
+
+V. Reduce the chances of error of selection a less suitable applicant when a more suitable one is present.
+
+
+
+
+
+Work Breakdown
+
+1. Planning and project setup
+2. Data understanding and preprocessing(cleaning)
+3. Model exploration
+4. Model refinement & optimization
+5. Testing and evaluation
+6. Model Deployment
+
+
